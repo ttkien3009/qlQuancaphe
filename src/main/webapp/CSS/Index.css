@@ -1,0 +1,171 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial;
+	color: black;
+}
+
+.bg{
+	background-color:#F1F1F1;
+}
+
+.main{
+	width: 1200px;
+	height: 2000px;
+	background-color:#F7F7F7;
+	padding-right: 15px;
+	margin: auto;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo{
+	float: left;
+	padding-left: 20px;
+}
+
+.menu{
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header{
+	width:1200px;
+	height: 50px;
+	background-color: #6F97A2;
+	margin: auto;
+}
+
+.headerright ul{
+	list-style-type: none;
+	text-align: center;
+	width: 1200px;
+	height: 50px;
+	margin: auto;
+	padding-left: 850px;
+}
+
+.headerright ul li{
+	color: #CACACA;
+	display:inline-table;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.headerright ul li a{
+	color:white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.headerright ul li a:hover{
+	color: #FF0000;
+}
+
+.lg a{
+	width: 45px;
+	height: 40px;
+	float: left;
+	list-style-type: none;
+	padding-top: 5px;
+	transition: 0.5s;
+}
+
+.lg a img{
+	display:inline-table;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 2px;
+}
+
+.lg a:hover{
+	padding-top: 0px;
+	transition: 0.5s;
+}
+
+.banner{
+	width: 1200px;
+	height: auto;
+}
+
+.submenu ul{
+	list-style-type: none;
+	text-align: center;
+	width: 1200px;
+	height: 84px;
+	background-color: white;
+	margin: auto;
+	padding-left: 500px;
+}
+
+.submenu ul li{
+	color: #CACACA;
+	display:inline-table;
+	width: 140px;
+	height: 80px;
+	line-height: 80px;
+}
+
+.submenu ul li a{
+	color:#979797;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.submenu a:hover{
+	color: darkgreen;
+}
+
+.content{
+	width: 1200px;
+	height: 1502px;
+}
+
+.bottom{
+	width:1200px;
+	height: 60px;
+	background-color: #6F97A2;
+	margin: auto;
+	text-align: center;
+	color: white;
+	padding-top: 24px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 10px;
+    height: 10px;
+}
+
+table tr td {
+    border-bottom: 2px solid #ccc;
+    padding-left: 14.5px;
+    padding-right: 5px;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+h1{
+	margin-left: 35%;
+	margin-top: 2%;
+	color: tomato;
+}
+
+.Content{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	
+	
+}

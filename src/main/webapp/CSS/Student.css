@@ -1,0 +1,268 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #45DF9E;
+}
+
+a:visted {
+	color: none;
+}
+
+a:hover {
+	color: tomato;
+}
+
+body {
+	background: url("../Image/Admin/background_Admin.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.Main {
+	width: 100%;
+	font-family: Cambria;
+	font-size: 18px;
+	font-height: 35px;
+}
+
+.Menu {
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	padding-top: 10px;
+	text-align: center;
+	background-color: none;
+	position: sticky;
+	top: 0px;
+}
+
+.Menu ul {
+	list-style-type: none;
+	text-align: center;
+	font: bold;
+	font-size: 20px;
+	position: relative;
+}
+
+.Menu li {
+	color: #f1f1f1;
+	display: inline-block;
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.Menu a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.Menu a:hover {
+	color: blue;
+	text-decoration: none;
+	background: none;
+}
+
+.Menu li ul a {
+	background: white;
+}
+
+.Menu li ul {
+	position: absolute;
+	display: none;
+	width: 220px;
+}
+
+.Menu li ul li a:hover {
+	color: tomato;
+	text-decoration: none;
+	background: black;
+	margin-left: 0px;
+}
+
+.Menu li:hover ul {
+	display: block;
+}
+
+.Content {
+	height: auto;
+	width: 90%;
+	background-color: #ffffff;
+	opacity: 0.7;
+	top: 10%;
+	box-sizing: border-box;
+	margin-top: 30px;
+	margin-left: 5%;
+	right: 50%;
+	padding: 40px 40px 20px 20px;
+}
+
+.Content input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+	height: 30px;
+	width: 350px;
+	padding-top: 7px;
+	font-size: 18px;
+	font-family: cambria;
+}
+
+.Content input[type="submit"], input[type="reset"] {
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 80px;
+	background: linear-gradient(to right, #f1f1f1, #00dbde);
+	font-size: 15px;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+}
+
+.Content #Table {
+	border: 1px solid;
+	cellpadding: 10px;
+	border-color: black;
+	width: 100%;
+	bgcolor: yellow;
+}
+
+.Content button {
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 80px;
+	background: linear-gradient(to right, #f1f1f1, #00dbde);
+	font-size: 15px;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+}
+
+.Content button:hover {
+	background: black;
+	color: tomato;
+}
+
+.Content p {
+	font-szie: 20px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.Content .UploadSP {
+	height: 1000px;
+	width: 500px;
+	background-color: #ffffff;
+	opacity: 0.8;
+	top: 50%;
+	right: 50%;
+	box-sizing: border-box;
+	padding: 40px 40px 20px 20px;
+	margin-top: 30px;
+	margin-left: 35%;
+}
+
+.Content .UploadSP h2 {
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+
+.Content .UploadSP p {
+	font-weight: bold;
+}
+
+.Content .UploadSP input {
+	width: 40px;
+	margin-bottom: 20px;
+}
+
+.Content .UploadSP input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+	height: 50px;
+}
+
+.Content .UploadSP input[type="submit"], input[type="reset"] {
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 80px;
+	background: linear-gradient(to right, #f1f1f1, #00dbde);
+	font-size: 15px;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+}
+
+.Content .UploadSP input[type="submit"]:hover {
+	background: black;
+	color: tomato;
+}
+
+.Content .UploadSP input[type="reset"]:hover {
+	background: black;
+	color: tomato;
+}
+
+.Content .UploadSP a {
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.Content .UploadSP input[type="radio"] {
+	width: 50px;
+}
+
+table {
+	spacing: 20px;
+	font-size: 18px;
+	line-height: 40px;
+	border-collapse: collapse;
+	width: 100%;
+	padding: 40px;
+}
+
+table tr td {
+	border-bottom: 2px solid lightblue;
+	padding-left: 7px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+table, th, td {
+	border: 1px solid lightblue;
+}
+
+table tr th {
+	font-weight: bold;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.Main .Content .contentuser {
+	padding-left: 40%;
+}

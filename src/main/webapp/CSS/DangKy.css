@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #45DF9E;
+}
+
+a:visted {
+	color: none;
+}
+
+a:hover {
+	color: tomato;
+}
+
+body {
+	background: url("../Image/TTBG.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.Main {
+	width: 100%;
+	font-family: Cambria;
+}
+
+.TT {
+	height: auto;
+	width: 90%;
+	background-color: #ffffff;
+	opacity: 0.9;
+	box-sizing: border-box;
+	padding: 50px 50px 50px 50px;
+	margin-top: 30px;
+	margin-left: 5%;
+}
+
+.TT h1 {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 30px;
+}
+
+.TT p {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.TT input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.TT input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+	height: 50px;
+	width: 500px;
+}
+
+.TT input[type="submit"], input[type="reset"] {
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 80px;
+	background: linear-gradient(to right, #fc00ff, #00dbde);
+	font-size: 15px;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+}
+
+.TT input[type="submit"]:hover {
+	background: black;
+	color: tomato;
+}
+
+.TT input[type="reset"]:hover {
+	background: black;
+	color: tomato;
+}
+
+.TT a {
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.TT input[type="radio"] {
+	width: 50px;
+}
+
+form {
+	padding-left: 0%;
+	padding-bottom: 200px;
+}
+
+table {
+	spacing: 20px;
+	line-height: 35px;
+	font-size: 22px;
+	line-height: 30px;
+	border-collapse: collapse;
+	width: 100%;
+	padding: 30px;
+	text-align: center;
+}
+
+table tr td {
+	border-bottom: 2px solid #ccc;
+	padding-left: 7px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+table, th, td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.TT button {
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 80px;
+	background: linear-gradient(to right, #fc00ff, #00dbde);
+	font-size: 15px;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+}
+
+.TT button:hover {
+	background: black;
+	color: tomato;
+}
