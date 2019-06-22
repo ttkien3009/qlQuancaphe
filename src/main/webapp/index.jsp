@@ -8,8 +8,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Quản Lý Sinh Viên - Trường Đại Học Tài Nguyên Và Môi
-	Trường Hồ Chí Minh</title>
+<title>Quản Lý Sinh Viên</title>
 <link rel="stylesheet" type="text/css" href="CSS/Index.css">
 <link rel="stylesheet" type="text/css" href="CSS/Login.css">
 <link rel="shortcut icon" type="Image/jpg"

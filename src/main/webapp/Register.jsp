@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset= utf-8" />
-<title>HCMUNRE - Đăng ký</title>
+<title>Đăng ký</title>
 <link rel="stylesheet" type="text/css" href="CSS/create_account.css">
 <link rel="shortcut icon" type="Image/jpg"
 	href="Image/Main_Page/favicon.jpg">
